@@ -1,7 +1,17 @@
 package designPattern;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class ClientCheck.
+ */
 public class ClientCheck {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 * @throws CloneNotSupportedException the clone not supported exception
+	 */
 	public static void main(String[] args)throws CloneNotSupportedException {
 		
 		SimpleEagerSingleton singleton = SimpleEagerSingleton.getInstance();

@@ -3,15 +3,33 @@ package collectionPractice;
 import java.util.HashMap;
 import java.util.Map;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class HashMapExperiment.
+ */
 public class HashMapExperiment{
+	
+	/**
+	 * Factorial.
+	 *
+	 * @param n the n
+	 * @return the long
+	 */
 	public static long factorial(int n)
 	{
 		if(n==1) return 1;
 		return n*factorial(n-1);
 	}
-	 String test;
+	 
+ 	/** The test. */
+ 	String test;
 	 
 	 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		foo(null);
 		System.out.println("---------------");
@@ -57,12 +75,30 @@ public class HashMapExperiment{
 		System.out.println(new String("hello").equals("hello"));
 		System.out.println(new String("Hello")== new String("Hello"));
 	}
+	
+	/**
+	 * Foo.
+	 *
+	 * @param o the o
+	 */
 	public static void foo(Object o) {
 		System.out.println("Object impl");
 	}
+	
+	/**
+	 * Foo.
+	 *
+	 * @param s the s
+	 */
 	public static void foo(String s) {
 		System.out.println("String impl");
 	}
+	
+	/**
+	 * Foo.
+	 *
+	 * @param s the s
+	 */
 	public static void foo(int s) {
 		System.out.println("Int impl");
 	}

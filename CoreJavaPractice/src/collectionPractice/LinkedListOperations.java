@@ -2,8 +2,17 @@ package collectionPractice;
 
 import java.util.LinkedList;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class LinkedListOperations.
+ */
 public class LinkedListOperations {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		LinkedList list = new LinkedList<>();

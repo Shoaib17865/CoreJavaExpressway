@@ -2,8 +2,15 @@ package pack2;
 
 import java.util.ArrayList;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class StringPractice.
+ */
 public class StringPractice {
 	
+	/**
+	 * Map practice.
+	 */
 	public static void mapPractice() {
 	
 		Object ab = new Object();
@@ -21,6 +28,11 @@ public class StringPractice {
 		
 	}
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		/*String a = "shoaib";
 		String b = "shoaib";

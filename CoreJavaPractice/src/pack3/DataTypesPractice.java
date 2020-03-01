@@ -1,9 +1,24 @@
 package pack3;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class DataTypesPractice.
+ */
 public class DataTypesPractice {
+	
+	/**
+	 * Instantiates a new data types practice.
+	 *
+	 * @param a the a
+	 */
 	private DataTypesPractice(int a)
 	 {}
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		byte a = 15;
 		byte b = 10;

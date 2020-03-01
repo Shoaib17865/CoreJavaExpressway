@@ -1,7 +1,14 @@
 package polymorphism;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class TestOverLoad.
+ */
 public class TestOverLoad {
 
+	/**
+	 * M 1.
+	 */
 	public void m1() {
 		// TODO Auto-generated method stub
 		System.out.println("Inside m1() of 0 parameters");
@@ -17,10 +24,21 @@ public class TestOverLoad {
 		System.out.println("Inside m1() of Integer parameters");
 	}*/
 	
+	/**
+	 * M 1.
+	 *
+	 * @param a the a
+	 */
 	public void m1(Object a)
 	{
 		System.out.println("Inside m1() of Object parameters");
 	}
+	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		
 		TestOverLoad load = new TestOverLoad();

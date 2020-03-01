@@ -2,8 +2,17 @@ package collectionPractice;
 
 import java.util.ArrayList;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class ArrayListOperations.
+ */
 public class ArrayListOperations {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList list = new ArrayList<>();

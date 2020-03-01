@@ -5,8 +5,18 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 import static java.lang.System.*;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class UrlEncodingDecoding.
+ */
 public class UrlEncodingDecoding {
 	
+	/**
+	 * Decode.
+	 *
+	 * @param url the url
+	 * @return the string
+	 */
 	public static String decode(String url) {
 		// TODO Auto-generated method stub
         try {  
@@ -24,6 +34,13 @@ public class UrlEncodingDecoding {
         
 
 	}
+	
+	/**
+	 * Encode.
+	 *
+	 * @param url the url
+	 * @return the string
+	 */
 	public static String encode(String url)  
     {  
               try {  
@@ -34,6 +51,9 @@ public class UrlEncodingDecoding {
               }  
     }  
 	
+	/**
+	 * Prints the value.
+	 */
 	public static void printValue() {
 		
 		for (int i = 0; i <= i+10; i++) {
@@ -44,6 +64,11 @@ public class UrlEncodingDecoding {
 
 	}
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 /*String url="https%3A%2F%2Fwww.geeksforgeeks.org%2Fjava-net-urlencoder-class-java%2F";  

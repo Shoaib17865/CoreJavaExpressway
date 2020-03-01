@@ -1,7 +1,16 @@
 package exceptionPack;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class SampleProgramme.
+ */
 public class SampleProgramme {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 
 		int age = 61;

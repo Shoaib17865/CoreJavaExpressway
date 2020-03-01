@@ -2,8 +2,17 @@ package collectionPractice;
 
 import java.util.LinkedHashSet;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class LinkedHashSetOperations.
+ */
 public class LinkedHashSetOperations {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		LinkedHashSet set = new LinkedHashSet();

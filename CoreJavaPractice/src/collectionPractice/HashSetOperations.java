@@ -2,8 +2,17 @@ package collectionPractice;
 
 import java.util.HashSet;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class HashSetOperations.
+ */
 public class HashSetOperations {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		HashSet set = new HashSet<>();
