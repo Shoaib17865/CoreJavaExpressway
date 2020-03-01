@@ -16,6 +16,7 @@ public class ExcelReader {
 
 	/** The Constant FILE_PATH. */
 	private static final String FILE_PATH = "D:/DemoExcel.xlsx";
+	private static final String SHEET_NAME = "Sheet1";
 	
 	/** The sheet. */
 	private static Sheet sheet;
@@ -25,7 +26,7 @@ public class ExcelReader {
 	
 	/** The file. */
 	static ReadingExcelFile file = ReadingExcelFile.getInstance();
-	 
+	
 	/**
 	 * The main method.
 	 *
@@ -37,16 +38,13 @@ public class ExcelReader {
 
 		System.out.println("This workbook has " + file.getWorkbookInstance(FILE_PATH).getNumberOfSheets()
 				+ " sheet with name : " + file.getWorkbookInstance(FILE_PATH).getSheetName(0));
-		
-		sheet = file.getWorkbookInstance(FILE_PATH).getSheetAt(0);
-		System.out.println("\n\nIterating over Rows and Columns using for-each loop\n");
-        for (Row row: sheet) {
-            for(Cell cell: row) {
-                String cellValue = dataFormatter.formatCellValue(cell);
-                System.out.print(cellValue + "\t");
-            }
-            System.out.println();
-        }
-        file.getWorkbookInstance(FILE_PATH).close();
+		file.getInstance().getAllExcelData(FILE_PATH,SHEET_NAME);
+        
+        /*for (Row row : sheet) { // For each Row.
+            Cell cell = row.getCell(0); // Get the Cell at the Index / Column you want.
+            System.out.println(cell.getStringCellValue());
+        }*/
+        
+        //file.getWorkbookInstance(FILE_PATH).close();
 	}
 }
